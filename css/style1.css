@@ -26,9 +26,12 @@ html{
     padding: 10px 20px;
     margin: 5px;
 }
+<<<<<<< HEAD
 .seleccion{
     background: #f89160;
 }
+=======
+>>>>>>> f2114c6aee4d19c51a6d7c361eb3dccabc35f283
 .header-nav__item > a{
     text-decoration: none;
     color: #626262;
@@ -61,11 +64,16 @@ html{
 .main__div{
     width: 250px;
     height: 150px;
+<<<<<<< HEAD
     margin: 20px auto;
 }
 .main__div-img{
     width: 250px;
     height: 150px;
+=======
+    background-color: #bbd0de;
+    margin: 20px auto;
+>>>>>>> f2114c6aee4d19c51a6d7c361eb3dccabc35f283
     border-radius: 15px;
 }
 .main__content{
@@ -103,7 +111,11 @@ html{
     display: flex;
     justify-content: space-around;
     margin: 15px;
+<<<<<<< HEAD
     color: #000000;
+=======
+    color: #626262;
+>>>>>>> f2114c6aee4d19c51a6d7c361eb3dccabc35f283
     border-radius: 15px;
 }
 .footer__information{
@@ -112,7 +124,15 @@ html{
 .footer__title{
     margin: 20px 0;
 }
+<<<<<<< HEAD
 .footer__img{
     height: 35px;
     width: 35px;
+=======
+.footer__icons{
+    border-radius: 45%;
+    background-color: #626262;
+    padding: 10px;
+    font-size: 1.6rem;
+>>>>>>> f2114c6aee4d19c51a6d7c361eb3dccabc35f283
 }
