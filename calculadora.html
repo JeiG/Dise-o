@@ -7,6 +7,20 @@
     <title>Calculadora</title>
 </head>
 <body onload="init();">
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="header-nav__list">
+                <li class="header-nav__item"><a href="index.html">Pagina 1</a></li>
+                <li class="header-nav__item"><a href="index2.html">Pagina 2</a></li>
+                <li class="header-nav__item"><a href="index3.html">Pagina 3</a></li>
+                <li class="header-nav__item"><a href="index4.html">Pagina 4</a></li>
+                <li class="header-nav__item"><a href="index5.html">Pagina 5</a></li>
+                <li class="header-nav__item seleccion"><a href="calculadora.html">Calculadora</a></li>
+            </ul>
+        </nav>
+        <section class="titulo">Calculadora</section>
+    </header>
+
     <table class="calculadora">
         <tr>
           <td colspan="4"><span id="resultado"></span></td>
@@ -15,7 +29,7 @@
           <td><button id="siete">7</button></td>
           <td><button id="ocho">8</button></td>
           <td><button id="nueve">9</button></td>
-          <td><button id="division">/</button></td>
+          <td><button id="reset">C</button></td>
         </tr>
         <tr>
           <td><button id="cuatro">4</button></td>
@@ -27,15 +41,32 @@
           <td><button id="uno">1</button></td>
           <td><button id="dos">2</button></td>
           <td><button id="tres">3</button></td>
-          <td><button id="resta">-</button></td>
+          <td><button id="division">/</button></td>
         </tr>
         <tr>
           <td><button id="igual">=</button></td>
-          <td><button id="reset">C</button></td>
           <td><button id="cero">0</button></td>
           <td><button id="suma">+</button></td>
+          <td><button id="resta">-</button></td>
         </tr>
-        </table>
-        <script src="./js/calculadora.js"></script>
+    </table>
+
+    <footer class="footer">
+        <section class="footer__information">
+            <h1 class="footer__title">Informacion:</h1>
+            <h2 class="footer__datos">Telefono: 555-555</h2>
+            <h2 class="footer__datos">Direccion: alguna parte</h2>
+            <h2 class="footer__datos">Email: ejemplo@ejemplo.com</h2>
+        </section>
+        <section class="footer__networks">
+            <h1 class="footer__title">Siguenos en:</h1>
+            <img src="img/facebook.svg" alt="" class="footer__img">
+            <img src="img/instagram.svg" alt="" class="footer__img">
+            <img src="img/youtube.svg" alt="" class="footer__img">
+            <img src="img/twiter.svg" alt="" class="footer__img">
+        </section>
+    </footer>
+
+    <script src="./js/calculadora.js"></script>
 </body>
 </html>

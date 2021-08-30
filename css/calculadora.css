@@ -1,26 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* Header */
+.header{
+    height: 200px;
+    background-color: #e8f3f5;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.header-nav__list{
+    display: flex;
+    justify-content: center;
+}
+.header-nav__item{
+    list-style: none;
+    font-size: 2rem;
+    background: #bbd0de;
+    padding: 10px 20px;
+    margin: 5px;
+}
+.seleccion{
+    background: #f89160;
+}
+.header-nav__item > a{
+    text-decoration: none;
+    color: #626262;
+}
+.header-nav__item:hover{
+    background: #f89160;
+}
+.titulo{
+    display: flex;
+    height: 100%;
+    margin-top: 30px;
+    justify-content: center;
+    font-size: 40px;
+    color: #626262;
+}
+
+/* Main */
 .calculadora{
     display:block;
     margin:0 auto;
     padding:20px;
-    background-color:#2980b9;
+    background-color: #bbd0de;
     width:350px;
     height:500px;
     border-radius: 25px;
-  }
-  .calculadora td button{
+}
+.calculadora td button{
     display:block;
     width:70px;
     height: 70px;
     font-size: 25px;
-  }
-  #creditos{
-    display:block;
-    padding-top:20px;
-    color:#fff;
-    text-align: center;
-    width:300px;
-  }
-  #resultado{
+}
+#resultado{
     display:block;
     text-align: center;
     font-size: 40px;
@@ -31,4 +72,23 @@
     background-color:#fff;
     border-radius: 25px;
     overflow-y: scroll;
-  }
+}
+/* Footer */
+.footer{
+    background-color: #bbd0de;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    color: #000000;
+    border-radius: 15px;
+}
+.footer__information{
+    margin-bottom: 20px;
+}
+.footer__title{
+    margin: 20px 0;
+}
+.footer__img{
+    height: 35px;
+    width: 35px;
+}
